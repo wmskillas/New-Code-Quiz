@@ -1,13 +1,13 @@
 var questions = [
   {
     question: "Where is the correct place to insert JavaScript into HTML?",
-    choices: [
+    choices:[
       "The <body> section",
       "The <header> section",
       "The <link> section",
       "None of the above",
     ],
-    answer: "The <body> section",
+    answer: "0",
   },
   {
     question: "What correlation does JavaScript have to Java?",
@@ -17,12 +17,12 @@ var questions = [
       "Java wanted a different format",
       "None of the above",
     ],
-    answer: "None of the above",
+    answer: "3",
   },
   {
     question: "How do you insert multiline comments into Javascript?",
     choices: ["//", "/* */", "<!-- -->", "None of the above"],
-    answer: "/* */",
+    answer: "1",
   },
   {
     question: "What is the correct way to write a JavaScript array?",
@@ -32,12 +32,12 @@ var questions = [
       "var colors = ['red', 'green', 'blue']",
       "var colors = 'red', 'green', 'blue'",
     ],
-    answer: "var colors = ['red', 'green', 'blue']",
+    answer: "2",
   },
   {
     question:
       "What method removes the last element from an array and returns that element?",
     choices: ["remove()", "pop()", "push()", "concat()"],
-    answer: "pop()",
+    answer: "1",
   },
 ];

@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <title>Code Quiz</title>
-</head>
-<body>
-    
-</body>
+  </head>
+ <body class="bg-dark text-white">
+  <div class="container">
+    <div id="startScreen" class="text-center">
+      <h1 class="m-3"><strong>Intro to Coding Quiz</strong></h1>
+      <p>Answer the following questions and try to get the High Score!</p>
+      <button class="btn btn-success m-3" id="start">Click To Start</button>
+      <br/>
+      <button class="btn btn-success"><a class="text-white text-decoration-none px-1" href="/scores.html">View Scores</a></button>
+    </div>
+    <div id="questions" class="hide">
+      <h4 id="questionTitle" class="fw-bold text-center text-white m-8 fs-2"></h4>
+      <div id="choices" class="choices choiceBorder text-center"></div>
+      <div id="response" class="response hide"></div>
+    </div>
+    <div class="text-center">
+    <div id="end-Screen" class="hide">
+    <h1><strong>Quiz Complete!</strong></h1>
+    <p>Your Score was: <h3 id="score"></h3></p>
+    <p class="">Enter Name <br/><input type="text" id="name" > <br/>
+    <button id="submit" class="btn btn-success px-3 my-3">Save Score</button>
+    </p>
+    </div>
+    </div>
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/questions.js"></script>
+  </body>
 </html>

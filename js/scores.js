@@ -1,19 +1,16 @@
-const printScores = () => {
+var showNameScore = () => {
+  var getUserScore = JSON.parse(window.localStorage.getItem("userScore")) || [];
+  console.log(getUserScore);
 
-const scores  = JSON.parse(window.localStorage.getItem("scores"))
+  getUserScore.forEach((userScore) => {
+    var listTag = document.createElement("li");
+    listTag.textContent =
+      "Name: " + userScore.name + " Score: " + userScore.score;
 
-scores.sort((a, b) => {
-    return b.score - a.score
-});
+    var oListTag = document.getElementById("userScore");
+    oListTag.appendChild(listTag);
+    console.log(oListTag);
+  });
+};
 
-scores.forEach((score) => {
-
-    const list = document.createElement('li');
-    list.textContent = score.name + ' / ' + score.score;
-
-    const oList = document.getElementById('scores');
-    oList.appendChild(list);
-});
-}
-
-printScores(); 
+showNameScore();

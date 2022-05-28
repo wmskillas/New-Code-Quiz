@@ -1,0 +1,22 @@
+.choiceBorder {
+  border: 3px;
+}
+
+.hide {
+  display: none;
+}
+
+.choices {
+  display: block;
+  margin: 10px;
+  padding: 100px;
+  font-size: 25px;
+}
+
+.response {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+}
