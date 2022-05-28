@@ -1,8 +1,12 @@
 # New-Code-Quiz
 
 Created a quiz with HTML, CSS, and JavaScript
-[Quiz Website](https://wmskillas.github.io/New-Code-Quiz/)
-[GitHub Repo](https://github.com/wmskillas/New-Code-Quiz)
+
+- [Quiz Website](https://wmskillas.github.io/New-Code-Quiz/)
+- [GitHub Repo](https://github.com/wmskillas/New-Code-Quiz)
+
+## Working App
+
 ![Quiz Gif](./assets/images/New-Code-Quiz.gif)
 
 ## Questions
